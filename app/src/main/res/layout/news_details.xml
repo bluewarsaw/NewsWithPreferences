@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main_listview"
+        style="@style/list_linearlayout">
+
+        <LinearLayout
+            style="@style/main_linearlayout">
+
+            <TextView
+                android:textColor="@color/colorTitle"
+                android:id="@+id/category_tv"
+                style="@style/section_textview" />
+
+            <TextView
+                android:id="@+id/author_tv"
+                style="@style/author_tv" />
+
+            <TextView
+                android:id="@+id/title_tv"
+                style="@style/title_tv" />
+
+            <TextView
+                android:id="@+id/date_tv"
+                style="@style/date_tv" />
+
+        </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
